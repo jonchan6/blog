@@ -1,11 +1,10 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my first application working with ruby on rails. It will be my personal blog.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 2.0.0
 
 * System dependencies
 
