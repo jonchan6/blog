@@ -35,11 +35,15 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
+# pg gem allows Rails to talk to PostgreSQL database
+# rails_12factor allows Heroku to serve static assets (images, stylesheets)
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
-
-# Use unicorn as the app server
-# gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
