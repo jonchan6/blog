@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
+  <title>Jonathan Chan: Computer Programmer. User Experience Designer. Photographer.</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
+<style media="screen">
+</style>
 <body>
-
-<%= yield %>
-
+<header>
+	<div class="header_image">
+		<div class=" centered_table">
+			<div class="centered_cell">
+				<div class="transparent_layer">
+				<p class="header-name">JONATHAN CHAN</p>
+				<p class="header-comments">Aspiring Computer Programmer</p>
+				<p class="header-comments">User Experience Designer</p>
+				<p class="header-comments">Photographer</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<nav class="navbar navbar-inverse navbar-custom">
+	<div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+	     <span class="sr-only">Toggle navigation</span>
+	     <span class="icon-bar"></span>
+	     <span class="icon-bar"></span>
+	</button>
+    </div>
+	<div class="collapse navbar-collapse" id="navbar-collapse">
+		<ul class="nav navbar-nav">
+			<li><a href="#">Skills/Education</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Work Experience</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div><!-- /.navbar-collapse -->
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+		<%= yield %>	
+		</div>
+	</div>
+</div>
 </body>
 </html>

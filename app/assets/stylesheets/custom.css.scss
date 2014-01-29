@@ -1,0 +1,63 @@
+@import "bootstrap";
+
+.navbar-custom {
+	border-radius: 0px;
+	background-color: #FF4D00;
+	border-color: #FF4D00;
+}
+
+.navbar .navbar-nav {
+  	display: inline-block;
+  	float: none;
+}
+
+.navbar .navbar-nav > li > a {
+	font-size: 18px;
+  	color: #363636;
+}
+.navbar .navbar-collapse {
+  	text-align: center;
+}
+
+.centered_table {
+	display: table;
+	height:inherit;
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+}
+
+.centered_cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.header-name {
+	padding:5px;
+	font-size: 40px;
+	font-weight: bolder;	
+}
+
+.header-comments {
+	font-style: italic;
+	font-size: 18px;
+}
+
+.header_image {
+height:400px;
+background-image: url("/assets/autumn_bench.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+}
+
+.transparent_layer {
+	background-color:rgba(255,255,255,0.5);
+}
+
+.portrait {
+	width: 10px;
+}
