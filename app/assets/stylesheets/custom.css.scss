@@ -46,7 +46,7 @@
 
 .header_image {
 height:400px;
-background-image: url("/assets/autumn_bench.jpg");
+background-image: asset-url("autumn_bench.jpg");
 background-repeat: no-repeat;
 background-position: center center;
 -webkit-background-size: cover;
