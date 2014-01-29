@@ -1,14 +1,20 @@
 Blog::Application.routes.draw do
+  match '/home', to: 'index#home',    via: 'get'
+  match '/skills', to: 'index#skills',   via: 'get'
+  match '/work', to: 'index#work', via: 'get'
+  match '/projects', to: 'index#projects', via: 'get'
+  match '/contact', to: 'index#contact', via: 'get'
   get "index/home"
   get "index/skills"
   get "index/work"
   get "index/projects"
   get "index/contact"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'index#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
