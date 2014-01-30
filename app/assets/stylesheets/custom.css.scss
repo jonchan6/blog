@@ -1,10 +1,17 @@
 @import "bootstrap";
 
+body {
+	font-size:15px;
+	padding-bottom: 30px;
+}
+span {
+	font-weight: bold;
+}
 .navbar-custom {
 	border-radius: 0px;
 	background-color: #59BAFF;
 	border-color: #59BAFF;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .navbar .navbar-nav {
@@ -54,8 +61,8 @@
 	font-style: italic;
 	background-color: #292929;
 	color: #E6E6E6;
-
 }
+
 .header_image {
 height:500px;
 background-image: asset-url("autumn_bench.jpg");
@@ -72,4 +79,9 @@ background-size: cover;
 
 .portrait {
 	width: 10px;
+}
+
+.image_format {
+	margin:0 auto;
+	display:block;
 }
