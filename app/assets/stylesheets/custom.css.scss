@@ -2,11 +2,12 @@
 
 body {
 	font-size:15px;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 span {
 	font-weight: bold;
 }
+
 .navbar-custom {
 	border-radius: 0px;
 	background-color: #59BAFF;
@@ -53,16 +54,6 @@ span {
 	font-size: 25px;
 }
 
-.footer {
-	margin-top:20px;
-	padding-top: 10px;
-	padding-bottom: 30px;
-	font-size: 14px;
-	font-style: italic;
-	background-color: #292929;
-	color: #E6E6E6;
-}
-
 .header_image {
 height:500px;
 background-image: asset-url("autumn_bench.jpg");
@@ -84,4 +75,16 @@ background-size: cover;
 .image_format {
 	margin:0 auto;
 	display:block;
+}
+
+.advanced {
+	color: #0638CF;
+}
+
+.intermediate {
+	color: #06CF21;
+}
+
+.novice {
+	color: #CF0606;
 }
