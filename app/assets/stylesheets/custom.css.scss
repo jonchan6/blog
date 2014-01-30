@@ -1,7 +1,8 @@
+$grid-float-breakpoint: 900px;
 @import "bootstrap";
 
 body {
-	font-size:15px;
+	font-size:18px;
 	padding-bottom: 50px;
 }
 span {
@@ -21,7 +22,7 @@ span {
 }
 
 .navbar .navbar-nav > li > a {
-	font-size: 20px;
+	font-size: 24px;
   	color: #363636;
 }
 .navbar .navbar-collapse {
