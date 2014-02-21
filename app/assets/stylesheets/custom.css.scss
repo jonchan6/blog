@@ -5,20 +5,27 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-weight:bold;
+	font-weight:800;
 	border-bottom: 1px solid;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
 h2 {
-	font-weight: 500;
+	font-weight: 800;
 }
 
 h3 {
-	font-weight:400;
+	font-weight:700;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+h4 {
+	font-weight: 700;
+	font-size: 17px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 body {
@@ -141,14 +148,8 @@ background-size: cover;
 	display:block;
 }
 
-.advanced {
-	color: #0638CF;
-}
-
-.intermediate {
-	color: #06CF21;
-}
-
-.novice {
-	color: #CF0606;
+.section {
+	padding-bottom: 20px;
+	spacing-bottom: 20px;
+	box-shadow: 0 8px 6px -6px #ABABAB;
 }
