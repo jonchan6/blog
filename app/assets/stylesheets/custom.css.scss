@@ -33,8 +33,14 @@ body {
 	padding-bottom: 50px;
 }
 
-span {
-	font-weight: bold;
+p {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.row {
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
 .navbar-custom {
@@ -77,14 +83,14 @@ span {
 	height:auto;
 }
 
-.image_size {
-	max-width:100%;
-	height:auto;
-}
 .header-name {
 	padding:10px;
 	font-size: 60px;
 	font-weight: 800;	
+}
+
+.image_container {
+	width: 200px;
 }
 
 .header-comments {
@@ -148,8 +154,20 @@ background-size: cover;
 	display:block;
 }
 
-.section {
-	padding-bottom: 20px;
-	spacing-bottom: 20px;
+.section_large {
+	padding-bottom: 40px;
+}
+
+.section_small {
+	padding-bottom: 40px;
+	margin-bottom: 100px;
 	box-shadow: 0 8px 6px -6px #ABABAB;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+	width:auto\9;
+	padding-top:10px;
+	padding-bottom:10px;
 }

@@ -1,0 +1,87 @@
+<h1>Mall Directory Design Process</h1>
+<div class='section_small'>
+	<h3>Introduction</h3>
+	<p>This project, which took under three months to finish, was completed in a course at UBC focused on Human-Computer Interaction. The main focus of the project was to find an existing system or software that has problems with its interface and find ways to improve upon it. During a brainstorming session for project ideas, my project team and I identified many problems with the existing static mall directory and we wanted to improve its usability. In the design process, we went through several iterations, from gathering user requirements, to low and medium-fidelity prototyping, to cognitive walkthroughs and user evaluations, and these are outlined below in more detail.</p>
+</div> 
+<div class='section_small'>
+	<h3>Gathering User Requirements</h3>
+	<p>We identified the main stakeholders to be mall shoppers, customer service workers and store managers. Through semi-structured interviews and questionnaires, we gathered the main user requirements that our stakeholders thought were important to include in our improved mall directory. These included:
+	<ul>
+		<li>an improvement in locating stores on a map without the use of arbitrary codes</li>
+		<li>the ability to access the map wherever users are</li>
+		<li>the use of colour and other indicators on mall map to help users locate stores</li>
+		<li>the ability to search for shops that are available in the mall</li>
+		<li>a map routing feature to quickly get to one’s desired destination</li>
+		<li>the ability to adapt map routing to work on multi-level story malls</li>
+	</ul>
+	<p>After gathering and prioritizing all the user requirements, we felt that creating a mobile application would be the best choice for several reasons. First, the smartphone adoption rate is rising rapidly, and based on our surveys, many shoppers wanted to have the ability to access the mall map wherever they are in the mall instead of having to look for the map. Also, it allows for enhanced functionality such as the ability to search and find the quickest route to specific stores. Since we are creating a mobile application, it could also provide stores another way of offering promotions and communicating sales and products directly to shoppers. Overall, it would be great addition to the static mall directories that already exist in malls. </p>
+</div>
+<div class='section_small'>
+	<h3>Design Process, Prototyping and User Evaluation Results</h3>
+	<p>After committing to designing a mobile application, my team and I started designing prototypes through an iterative process. After each stage of prototyping, we administered user evaluations to get feedback so that we can continually improve on our designs and that the end result would satisfy our user requirements. Shown below are some highlights of the prototype, as well as user feedback garnered from our evaluations, and improvements needed in future iterations. When conducting user evaluations, we gave participants different tasks and observed how well they were able to accomplish them, and recorded any comments they provided.</p>
+	<div class='row'>
+		<div class='col-sm-12 col-md-4'>
+			<div class="centered_table">
+				<div class="centered_cell">
+					<div class='image_container'>
+						<%= image_tag "malldirectory/main_screen.png" %>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class='col-sm-12 col-md-8'>
+			<h4>Main Screen</h4>
+			<p>The main screen shows the core functionality of our app, and is the first screen that is shown when the app is opened. In our first prototype, we had a menu where you could swipe it from the left. However, during our user evaluations, many of our participants found it confusing, and they did not know what functionality our app offered. Therefore, in our subsequent prototype we included the our core functionality in the main screen. Users found this to be more practical, and it gave an immediate indication of what our app can do.</p>
+		</div>
+	</div>
+	<div class='row'>
+		<div class='col-sm-12 col-md-4'>
+			<div class="centered_table">
+				<div class="centered_cell">
+					<div class='image_container'>
+						<%= image_tag "malldirectory/stores_search.png" %>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class='col-sm-12 col-md-8'>
+			<h4>Store Directory</h4>
+			<p>This is the store directory screen where users can search for stores, either by typing in a specific store or searching through different categories. Once searching is done, a list of results will be shown. From the results, you can get more information about each store, add the store to your current route, show its location on a map, or even find out what sales they have. Users generally liked the layout of this screen, especially the search bar at the top which was instantly recognizable. However, users had trouble searching stores by category because they did not recognize the drop-down box below the search bar as something that they could change. In future interations, we would make it more obvious, either by putting an outline or creating some separation from the background color.</p>
+		</div>
+	</div>
+	<div class='row'>
+		<div class='col-sm-12 col-md-4'>
+			<div class="centered_table">
+				<div class="centered_cell">
+					<div class='image_container'>
+						<%= image_tag "malldirectory/facilities.png" %>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class='col-sm-12 col-md-8'>
+			<h4>Facilities and Washrooms</h4>
+			<p>Facilities, such as washrooms, help desks, and elevators were important to shoppers, and hence we included them in our app in a separate category outside of stores and food. Users appreciated the ability to find the closest facility. Also, users were able to easily recognize the icons used for the different facilities. However, participants found that it took too many button presses in order to find the closest facility, and that it may be too cumbersome in rushed circumstances. Also, they believed certain items, such as customer service, did not belong in the facilities section.</p>
+		</div>
+	</div>
+	<div class='row'>
+		<div class='col-sm-12 col-md-4'>
+			<div class="centered_table">
+				<div class="centered_cell">
+					<div class='image_container'>
+						<%= image_tag "malldirectory/routing.png" %>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class='col-sm-12 col-md-8'>
+			<h4>Map and Routing</h4>
+			<p>From the stores directory screen, stores can be added to a route and plotted on the map (as shown). Users can switch between floors of a mall by selecting from a dropdown box near the top of the map (not shown in screenshot). At the bottom of the screen is a quick way of accessing the stores that have already been added to the route. Users were able to spot the stores they added in the route due to the color-coding. Although some users found the route to be helpful in quickly getting to their destination, others found it to be not as useful, and wished they had the ability to turn it off. One future consideration would be to give users the ability to toggle the route on and off the map. Also, the current location indicator icon needs improvement as it was difficult to spot for some users. Some users also mentioned that store logos were more recognizable than having their names.</p>
+		</div>
+	</div>
+</div>
+<div class='section_small'>
+	<h3>Improvements and Future Considerations</h3>
+	<p>Based on our user evaluations, there are a couple of areas that we would need to improve on. Most importantly is the flow and speed of using our application. Most users found that the functionality of our app to be useful, but some functions, such as finding the closest washroom, took too many steps. Another area of improvement needed is the map routing feature. Some icons on the map were not discernable by users, and others felt the map was too cluttered when the route was plotted. The refinement of semantics and categorization of certain items are also required to improve overall usability.</p>
+	<p>When conducting our user evaluations, participants were generally positive with our application. Over 90% of our participants said they would use our app. Many of them said they would use it if the application notifies them of current sales in stores, with one person mentioning that she would continually use the app if it offered discounts or coupons of some sort. If we were to continue developing this application, we would look into implementing this feature in cooperation with store managers.</p>
+</div> 

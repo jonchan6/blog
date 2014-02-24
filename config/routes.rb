@@ -1,4 +1,5 @@
 Blog::Application.routes.draw do
+  get "projects/mall_directory/details"
   match '/home', to: 'index#home',    via: 'get'
   match '/skills', to: 'index#skills',   via: 'get'
   match '/work', to: 'index#work', via: 'get'
